@@ -28,7 +28,7 @@ const commands = computed(() => {
       id: brand.name,
       label: brand.name,
       icon: brand.isEuropean ? 'i-ph-check-circle-duotone' : 'i-ph-x-circle-duotone',
-      iconClass: brand.isEuropean ? 'text-green-500' : 'text-red-500',
+      isEuropean: brand.isEuropean,
       shortcuts: [],
       suffix: brand.country
     })
@@ -67,6 +67,17 @@ const europeanCountries = [
         <!-- Always visible CommandPalette -->
         <UCommandPalette v-model="isOpen" :groups="commands"
           placeholder="Search for a brand (e.g., Apple, Samsung, Panzani...)" @close="onClose">
+          <!-- Custom slot for items to display colored icons -->
+          <template #item="{ item, active, selected }">
+            <div class="flex items-center justify-start gap-2 py-1">
+              <UIcon :name="item.icon" :class="[
+                item.isEuropean ? 'text-green-500' : 'text-red-500'
+              ]" />
+              <span class="flex-1 text-base">{{ item.label }}</span>
+              <span class="text-sm text-gray-500">{{ item.suffix }}</span>
+            </div>
+          </template>
+
           <template #empty-state>
             <div class="p-4 text-center">
               <i class="i-ph-magnifying-glass-duotone text-4xl mx-auto mb-2 text-gray-400" />
