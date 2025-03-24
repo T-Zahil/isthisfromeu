@@ -1,0 +1,124 @@
+- name: Apple
+  isEuropean: false
+  country: United States
+  category: Electronics
+
+- name: Samsung
+  isEuropean: false
+  country: South Korea
+  category: Electronics
+
+- name: Panzani
+  isEuropean: true
+  country: France
+  category: Food
+
+- name: Rode
+  isEuropean: false
+  country: Australia
+  category: Electronics
+
+- name: Sennheiser
+  isEuropean: true
+  country: Germany
+  category: Electronics
+
+- name: Zara
+  isEuropean: true
+  country: Spain
+  category: Clothing
+
+- name: Lidl
+  isEuropean: true
+  country: Germany
+  category: Retail
+
+- name: Xiaomi
+  isEuropean: false
+  country: China
+  category: Electronics
+
+- name: Danone
+  isEuropean: true
+  country: France
+  category: Food
+
+- name: Adidas
+  isEuropean: true
+  country: Germany
+  category: Clothing
+
+- name: Nike
+  isEuropean: false
+  country: United States
+  category: Clothing
+
+- name: Volkswagen
+  isEuropean: true
+  country: Germany
+  category: Automotive
+
+- name: Toyota
+  isEuropean: false
+  country: Japan
+  category: Automotive
+
+- name: IKEA
+  isEuropean: true
+  country: Sweden
+  category: Furniture
+
+- name: Nestlé
+  isEuropean: true
+  country: Switzerland
+  category: Food
+
+- name: Sony
+  isEuropean: false
+  country: Japan
+  category: Electronics
+
+- name: H&M
+  isEuropean: true
+  country: Sweden
+  category: Clothing
+
+- name: Unilever
+  isEuropean: true
+  country: United Kingdom
+  category: Consumer Goods
+
+- name: Coca-Cola
+  isEuropean: false
+  country: United States
+  category: Beverages
+
+- name: Airbus
+  isEuropean: true
+  country: Netherlands
+  category: Aerospace
+
+- name: Google
+  isEuropean: false
+  country: United States
+  category: Technology
+
+- name: BMW
+  isEuropean: true
+  country: Germany
+  category: Automotive
+
+- name: LG Electronics
+  isEuropean: false
+  country: South Korea
+  category: Electronics
+
+- name: Philips
+  isEuropean: true
+  country: Netherlands
+  category: Electronics
+
+- name: Lenovo
+  isEuropean: false
+  country: China
+  category: Electronics

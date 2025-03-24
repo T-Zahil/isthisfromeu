@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-ui-pro-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.32",
+    "@iconify-json/simple-icons": "^1.2.29",
+    "@nuxt/content": "^3.4.0",
+    "@nuxt/ui-pro": "^3.0.1",
+    "nuxt": "^3.16.1"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.2.0",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2",
+    "vue-tsc": "^2.2.2"
+  },
+  "resolutions": {
+    "vue-tsc": "2.2.2"
+  },
+  "packageManager": "pnpm@10.6.5"
+}
