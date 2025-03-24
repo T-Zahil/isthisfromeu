@@ -1,12 +1,10 @@
 <script setup>
+// Make CommandPalette always open
 const isOpen = ref(true)
 
 // Fetch brands data from Nuxt Content
 const { data } = await useAsyncData('brands', () => queryCollection('brands').all())
 const brandsData = data.value[0].meta.body
-
-// Log the structure to debug
-console.log('Brands data structure:', brandsData)
 
 // Create commands for CommandPalette
 const commands = computed(() => {
@@ -39,15 +37,7 @@ const commands = computed(() => {
   return Object.values(groups)
 })
 
-// Handle brand selection
-const selectedBrand = ref(null)
-
-function onCommandSelect(command) {
-  const brandsArray = Array.isArray(brandsData) ? brandsData : []
-  selectedBrand.value = brandsArray.find(brand => brand.name === command.id)
-}
-
-// Prevent CommandPalette from closing
+// Keep CommandPalette open on close event
 function onClose() {
   isOpen.value = true
 }
@@ -76,8 +66,7 @@ const europeanCountries = [
       <div class="py-4">
         <!-- Always visible CommandPalette -->
         <UCommandPalette v-model="isOpen" :groups="commands"
-          placeholder="Search for a brand (e.g., Apple, Samsung, Panzani...)" @select="onCommandSelect"
-          @close="onClose">
+          placeholder="Search for a brand (e.g., Apple, Samsung, Panzani...)" @close="onClose">
           <template #empty-state>
             <div class="p-4 text-center">
               <i class="i-ph-magnifying-glass-duotone text-4xl mx-auto mb-2 text-gray-400" />
@@ -85,33 +74,6 @@ const europeanCountries = [
             </div>
           </template>
         </UCommandPalette>
-
-        <!-- Results display -->
-        <div v-if="selectedBrand" class="mt-8">
-          <UCard :ui="{ base: 'border border-gray-200 dark:border-gray-800 shadow-sm rounded-lg' }">
-            <div class="text-center">
-              <h2 class="text-xl font-semibold">{{ selectedBrand.name }}</h2>
-
-              <div class="mt-4 flex justify-center items-center">
-                <UBadge v-if="selectedBrand.isEuropean" color="green" size="lg">
-                  <i class="i-ph-check-circle-duotone mr-1" />
-                  European Brand
-                </UBadge>
-                <UBadge v-else color="red" size="lg">
-                  <i class="i-ph-x-circle-duotone mr-1" />
-                  Non-European Brand
-                </UBadge>
-              </div>
-
-              <div class="mt-4 mb-2">
-                <UBadge color="gray" variant="subtle">
-                  <i class="i-ph-flag-duotone mr-1" />
-                  {{ selectedBrand.country }}
-                </UBadge>
-              </div>
-            </div>
-          </UCard>
-        </div>
       </div>
 
       <template #footer>
