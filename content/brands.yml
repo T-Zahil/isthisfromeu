@@ -1,244 +1,244 @@
 - name: Apple
   isEuropean: false
   country: United States
-  description: American technology company that designs, develops, and sells consumer electronics, software, and online services.
+  alternatives:
+    - Nokia
+    - Philips
 
 - name: Samsung
   isEuropean: false
   country: South Korea
-  description: South Korean multinational electronics corporation headquartered in Samsung Town.
+  alternatives:
+    - Nokia
+    - Philips
+    - Siemens
 
 - name: Panzani
   isEuropean: true
   country: France
-  description: French pasta brand and company founded in 1940, known for pasta products.
 
 - name: Rode
   isEuropean: false
   country: Australia
-  description: Australian professional audio company that designs and manufactures microphones and related accessories.
+  alternatives:
+    - Sennheiser
 
 - name: Sennheiser
   isEuropean: true
   country: Germany
-  description: German privately-held audio company specializing in the design and production of high-fidelity products.
 
 - name: Zara
   isEuropean: true
   country: Spain
-  description: Spanish fast fashion retailer owned by Inditex, one of the world's largest apparel retailers.
 
 - name: Lidl
   isEuropean: true
   country: Germany
-  description: German international discount retailer chain that operates over 11,000 stores across Europe and the United States.
 
 - name: Xiaomi
   isEuropean: false
   country: China
-  description: Chinese electronics company founded in 2010 that makes and invests in smartphones, mobile apps, and other consumer electronics.
+  alternatives:
+    - Nokia
+    - Philips
 
 - name: Danone
   isEuropean: true
   country: France
-  description: French multinational food-products corporation based in Paris, focusing on dairy, plant-based products, waters and specialized nutrition.
 
 - name: Adidas
   isEuropean: true
   country: Germany
-  description: German multinational corporation, founded in 1949, that designs and manufactures shoes, clothing and accessories.
 
 - name: Nike
   isEuropean: false
   country: United States
-  description: American multinational corporation that designs, develops, manufactures, and markets footwear, apparel, equipment, and services.
+  alternatives:
+    - Adidas
+    - Puma
 
 - name: Volkswagen
   isEuropean: true
   country: Germany
-  description: German automotive manufacturer headquartered in Wolfsburg, known for its iconic Beetle model and broad range of vehicles.
 
 - name: Toyota
   isEuropean: false
   country: Japan
-  description: Japanese multinational automotive manufacturer headquartered in Toyota City, and the largest automobile manufacturer in the world.
+  alternatives:
+    - Volkswagen
+    - BMW
+    - Audi
+    - Volvo
+    - Ferrari
 
 - name: IKEA
   isEuropean: true
   country: Sweden
-  description: Swedish multinational conglomerate that designs and sells ready-to-assemble furniture, kitchen appliances and home accessories.
 
 - name: Nestlé
   isEuropean: true
   country: Switzerland
-  description: Swiss multinational food and drink processing conglomerate, the largest food company in the world measured by revenue.
 
 - name: Sony
   isEuropean: false
   country: Japan
-  description: Japanese multinational conglomerate corporation headquartered in Tokyo, known for electronics products and entertainment content.
+  alternatives:
+    - Philips
 
 - name: H&M
   isEuropean: true
   country: Sweden
-  description: Swedish multinational clothing company known for its fast-fashion clothing for men, women, teenagers and children.
 
 - name: Unilever
   isEuropean: true
   country: United Kingdom
-  description: British multinational consumer goods company co-headquartered in London, England, and Rotterdam, Netherlands.
 
 - name: Coca-Cola
   isEuropean: false
   country: United States
-  description: American multinational beverage corporation, best known for its flagship soft drink Coca-Cola.
+  alternatives:
+    - Heineken
 
 - name: Airbus
   isEuropean: true
   country: Netherlands
-  description: European multinational aerospace corporation that designs, manufactures, and sells civil and military aerospace products worldwide.
 
 - name: Bic
   isEuropean: true
   country: France
-  description: French company known for manufacturing stationery products, lighters, and shavers.
 
 - name: Gilette
   isEuropean: false
   country: USA
-  description: American brand of safety razors and other personal care products.
+  alternatives:
+    - Philips
 
 - name: Duracell
   isEuropean: false
   country: USA
-  description: American manufacturing company that produces batteries and smart power systems.
+  alternatives:
+    - Philips
 
 - name: Google
   isEuropean: false
   country: United States
-  description: American multinational technology company that specializes in Internet-related services and products.
+  alternatives:
+    - Spotify
 
 - name: BMW
   isEuropean: true
   country: Germany
-  description: German luxury vehicle and motorcycle manufacturer founded in 1916 and headquartered in Munich, Bavaria.
 
 - name: LG Electronics
   isEuropean: false
   country: South Korea
-  description: South Korean multinational electronics company that manufactures electronics, appliances, and mobile devices.
+  alternatives:
+    - Philips
+    - Siemens
 
 - name: Philips
   isEuropean: true
   country: Netherlands
-  description: Dutch multinational conglomerate corporation founded in 1891, focusing on healthcare, consumer lifestyle, and lighting products.
 
 - name: Lenovo
   isEuropean: false
   country: China
-  description: Chinese multinational technology company that designs, develops, manufactures, and sells personal computers, tablets, smartphones, and other electronics.
+  alternatives:
+    - Nokia
+    - Siemens
 
 - name: Audi
   isEuropean: true
   country: Germany
-  description: German luxury automotive manufacturer known for its high-performance and luxury vehicles.
 
 - name: Chanel
   isEuropean: true
   country: France
-  description: French luxury fashion house specializing in haute couture, ready-to-wear, luxury goods, and fashion accessories.
 
 - name: Ferrari
   isEuropean: true
   country: Italy
-  description: Italian luxury sports car manufacturer based in Maranello, Italy.
 
 - name: Heineken
   isEuropean: true
   country: Netherlands
-  description: Dutch brewing company and one of the largest beer producers in the world.
 
 - name: LEGO
   isEuropean: true
   country: Denmark
-  description: Danish toy production company known for the manufacture of LEGO-brand toys and interlocking plastic bricks.
 
 - name: L'Oréal
   isEuropean: true
   country: France
-  description: French personal care company known for cosmetics, skin care, hair care, and perfume products.
 
 - name: Nintendo
   isEuropean: false
   country: Japan
-  description: Japanese multinational consumer electronics and video game company.
+  alternatives:
+    - Nokia
 
 - name: Nokia
   isEuropean: true
   country: Finland
-  description: Finnish multinational telecommunications, information technology, and consumer electronics company.
 
 - name: Puma
   isEuropean: true
   country: Germany
-  description: German multinational corporation that designs and manufactures athletic and casual footwear, apparel and accessories.
 
 - name: Rolex
   isEuropean: true
   country: Switzerland
-  description: Swiss luxury watch manufacturer based in Geneva, Switzerland.
 
 - name: Siemens
   isEuropean: true
   country: Germany
-  description: German multinational conglomerate company focused on industry, infrastructure, transport, and healthcare.
 
 - name: Starbucks
   isEuropean: false
   country: United States
-  description: American multinational chain of coffeehouses and roastery reserves.
+  alternatives:
+    - Tesco
 
 - name: Tesla
   isEuropean: false
   country: United States
-  description: American electric vehicle and clean energy company based in Austin, Texas.
+  alternatives:
+    - BMW
+    - Volkswagen
+    - Volvo
 
 - name: Tesco
   isEuropean: true
   country: United Kingdom
-  description: British multinational groceries and general merchandise retailer.
 
 - name: Volvo
   isEuropean: true
   country: Sweden
-  description: Swedish multinational manufacturing company known for its vehicles, including trucks, buses, and construction equipment.
 
 - name: Yamaha
   isEuropean: false
   country: Japan
-  description: Japanese multinational corporation with a diverse range of products and services, predominantly musical instruments and electronics.
+  alternatives:
+    - Philips
 
 - name: Canon
   isEuropean: false
   country: Japan
-  description: Japanese multinational corporation specialized in optical, imaging, and industrial products, such as cameras, camcorders, and printers.
+  alternatives:
+    - Philips
 
 - name: Gucci
   isEuropean: true
   country: Italy
-  description: Italian luxury fashion house known for its leather goods, fashion accessories, and ready-to-wear collections.
 
 - name: Haribo
   isEuropean: true
   country: Germany
-  description: German confectionery company founded in 1920, famous for its gummy candies.
 
 - name: Shell
   isEuropean: true
   country: United Kingdom
-  description: British-Dutch multinational oil and gas company headquartered in The Hague, Netherlands.
 
 - name: Spotify
   isEuropean: true
   country: Sweden
-  description: Swedish audio streaming and media services provider founded in 2006.

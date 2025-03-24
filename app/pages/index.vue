@@ -28,7 +28,8 @@ const commands = computed(() => {
       icon: brand.isEuropean ? 'i-ph-check-circle-duotone' : 'i-ph-x-circle-duotone',
       isEuropean: brand.isEuropean,
       shortcuts: [],
-      suffix: brand.country
+      suffix: brand.country,
+      alternatives: brand.alternatives || []
     })
   })
 
@@ -67,10 +68,19 @@ const europeanCountries = [
           placeholder="Search for a brand (e.g., Apple, Samsung, Panzani...)" @close="onClose">
           <!-- Custom slot for items to display colored icons -->
           <template #item="{ item, active, selected }">
-            <div class="flex items-center justify-start gap-2 py-1">
-              <UIcon :name="item.icon" :class="item.isEuropean ? 'text-green-500' : 'text-red-500'" />
-              <span class="flex-1 text-base">{{ item.label }}</span>
-              <span class="text-sm text-gray-500">{{ item.suffix }}</span>
+            <div class="flex flex-col">
+              <div class="flex items-center justify-start w-fit gap-2 py-1">
+                <UIcon :name="item.icon" :class="item.isEuropean ? 'text-green-500' : 'text-red-500'" />
+                <span class="flex-1 text-base">{{ item.label }}</span>
+                <span class="text-sm text-gray-500">{{ item.suffix }}</span>
+              </div>
+
+              <!-- Show alternatives for non-European brands -->
+              <div v-if="!item.isEuropean && item.alternatives && item.alternatives.length > 0"
+                class="mt-1 mb-1 text-gray-500 text-left text-sm">
+                <span>European alternatives: </span>
+                <span class="text-green-600">{{ item.alternatives.join(', ') }}</span>
+              </div>
             </div>
           </template>
 
