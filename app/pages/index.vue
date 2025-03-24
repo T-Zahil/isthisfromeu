@@ -2,29 +2,27 @@
 // Make CommandPalette always open
 const isOpen = ref(true)
 
+// Search state
+const searchQuery = ref('')
+
 // Fetch brands data from Nuxt Content
-const { data } = await useAsyncData('brands', () => queryCollection('brands').all())
-const brandsData = data.value[0].meta.body
+const { data: brandsData } = await useAsyncData('brands', () => queryCollection('brands').all())
 
 // Create commands for CommandPalette
 const commands = computed(() => {
-  const groups = {}
+  // Create a default group for all brands
+  const defaultGroup = {
+    id: 'all-brands',
+    label: 'All Brands',
+    items: []
+  }
 
-  // Make sure we have an array to iterate
-  const brandsArray = Array.isArray(brandsData) ? brandsData : []
+  // Get brands from the correct path in the data structure
+  const brands = brandsData.value?.[0]?.meta?.body || []
 
-  brandsArray.forEach(brand => {
-    // Create category groups
-    if (!groups[brand.category]) {
-      groups[brand.category] = {
-        id: brand.category,
-        label: brand.category,
-        items: []
-      }
-    }
-
-    // Add item to appropriate group
-    groups[brand.category].items.push({
+  // Add each brand to the default group
+  brands.forEach(brand => {
+    defaultGroup.items.push({
       id: brand.name,
       label: brand.name,
       icon: brand.isEuropean ? 'i-ph-check-circle-duotone' : 'i-ph-x-circle-duotone',
@@ -34,7 +32,7 @@ const commands = computed(() => {
     })
   })
 
-  return Object.values(groups)
+  return [defaultGroup]
 })
 
 // Keep CommandPalette open on close event
@@ -65,19 +63,18 @@ const europeanCountries = [
 
       <div class="py-4">
         <!-- Always visible CommandPalette -->
-        <UCommandPalette v-model="isOpen" :groups="commands"
+        <UCommandPalette v-model="isOpen" :groups="commands" v-model:search-value="searchQuery"
           placeholder="Search for a brand (e.g., Apple, Samsung, Panzani...)" @close="onClose">
           <!-- Custom slot for items to display colored icons -->
           <template #item="{ item, active, selected }">
             <div class="flex items-center justify-start gap-2 py-1">
-              <UIcon :name="item.icon" :class="[
-                item.isEuropean ? 'text-green-500' : 'text-red-500'
-              ]" />
+              <UIcon :name="item.icon" :class="item.isEuropean ? 'text-green-500' : 'text-red-500'" />
               <span class="flex-1 text-base">{{ item.label }}</span>
               <span class="text-sm text-gray-500">{{ item.suffix }}</span>
             </div>
           </template>
 
+          <!-- Custom empty state -->
           <template #empty-state>
             <div class="p-4 text-center">
               <i class="i-ph-magnifying-glass-duotone text-4xl mx-auto mb-2 text-gray-400" />
