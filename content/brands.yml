@@ -826,7 +826,6 @@
   alternatives:
     - Just Eat
     - Deliveroo
-    - Uber Eats Europe
 
 - name: Fantuan
   isEuropean: false
@@ -834,13 +833,11 @@
   alternatives:
     - Just Eat
     - Deliveroo
-    - Uber Eats Europe
 
 - name: TappCar
   isEuropean: false
   country: Canada
   alternatives:
-    - Uber Europe
     - Bolt
     - Free Now
 
@@ -848,7 +845,6 @@
   isEuropean: false
   country: Canada
   alternatives:
-    - Uber Europe
     - Bolt
     - Free Now
 
@@ -1742,7 +1738,6 @@
   alternatives:
     - Bolt
     - Free Now
-    - Uber Europe
 
 - name: Lyft
   isEuropean: false
@@ -1750,4 +1745,3 @@
   alternatives:
     - Bolt
     - Free Now
-    - Uber Europe
