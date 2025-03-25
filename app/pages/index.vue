@@ -57,8 +57,8 @@ const europeanCountries = [
     <UCard>
       <template #header>
         <div class="text-center">
-          <h1 class="text-2xl font-bold mb-2">Is it European?</h1>
-          <p class="text-gray-500">Find out if a brand is European or not</p>
+          <h1 class="text-2xl font-bold mb-2">Is this from Europe?</h1>
+          <p class="text-gray-500">Search among 103 brands and find out if it's European or not</p>
         </div>
       </template>
 
@@ -96,8 +96,15 @@ const europeanCountries = [
 
       <template #footer>
         <div class="text-center text-xs text-gray-500">
-          <p>Open-source application to identify brand origins</p>
+          <p>Open-source application to identify brand origins, by <NuxtLink class="strong text-green-600"
+              to="https://uneed.best" target="_blank">
+              Uneed</NuxtLink>
+          </p>
           <p class="mt-1">Contribute to the project by adding new brands!</p>
+          <UButton to="https://github.com/T-Zahil/isthisfromeu" target="_blank" icon="i-ph-github-logo-duotone"
+            variant="link" class="text-gray-500 mt-2">
+            <span>View on GitHub</span>
+          </UButton>
         </div>
       </template>
     </UCard>
