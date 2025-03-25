@@ -16,10 +16,28 @@ useHead({
     lang: 'en'
   }
 })
+
+const { $pwa } = useNuxtApp()
+const toast = useToast()
+
+onMounted(() => {
+  if ($pwa.offlineReady)
+    toast.success('App ready to work offline')
+})
 </script>
 
 <template>
-  <div class="min-h-screen">
+  <UApp>
+    <div v-if="$pwa && $pwa.needRefresh">
+      <span>
+        New content available, click on reload button to update.
+      </span>
+
+      <button @click="$pwa.updateServiceWorker()">
+        Reload
+      </button>
+    </div>
+    <NuxtPwaManifest />
     <NuxtPage />
-  </div>
+  </UApp>
 </template>
