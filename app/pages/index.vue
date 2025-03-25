@@ -50,6 +50,11 @@ const europeanCountries = [
   'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia',
   'Spain', 'Sweden', 'United Kingdom', 'Switzerland', 'Norway'
 ]
+
+// Compute the total number of brands
+const totalBrands = computed(() => {
+  return brandsData.value?.[0]?.meta?.body?.length || 0
+})
 </script>
 
 <template>
@@ -58,7 +63,7 @@ const europeanCountries = [
       <template #header>
         <div class="text-center">
           <h1 class="text-2xl font-bold mb-2">Is this from Europe?</h1>
-          <p class="text-gray-500">Search among 103 brands and find out if it's European or not</p>
+          <p class="text-gray-500">Search among {{ totalBrands }} brands and find out if it's European or not</p>
         </div>
       </template>
 
