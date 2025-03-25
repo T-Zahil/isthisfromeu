@@ -26,5 +26,5 @@
   "resolutions": {
     "vue-tsc": "2.2.2"
   },
-  "packageManager": "pnpm@10.6.5"
+  "packageManager": "npm@10.8.2"
 }
