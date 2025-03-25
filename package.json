@@ -8,7 +8,7 @@
     "build": "nuxi build",
     "build-sw": "SW=true nuxi build",
     "generate": "SW=true nuxi generate",
-    "test": "vitest"
+    "test": "vitest run --reporter=default --reporter=json --outputFile=./vitest-result.json"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.32",

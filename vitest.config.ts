@@ -1,5 +1,11 @@
-import { defineVitestConfig } from '@nuxt/test-utils/config'
+import { defineConfig } from 'vitest/config'
 
-export default defineVitestConfig({
-  // any custom Vitest config you require
+export default defineConfig({
+  test: {
+    globals: true,
+    environment: 'node',
+    include: ['test/**/*.test.ts'],
+    reporters: ['default', 'json'],
+    outputFile: './vitest-result.json'
+  }
 })
