@@ -197,16 +197,17 @@
   isEuropean: false
   country: United States
   alternatives:
-    - Tesco
+    - McCafé
+    - Costa Coffee
+    - Starbucks Europe
 
 - name: Tesla
   isEuropean: false
   country: United States
   alternatives:
-    - Literally anything please
     - BMW
+    - Mercedes-Benz
     - Volkswagen
-    - Volvo
 
 - name: Tesco
   isEuropean: true
@@ -251,8 +252,6 @@
     - BMW
     - Mercedes-Benz
     - Volkswagen
-    - Peugeot
-    - Audi
 
 - name: Chevrolet
   isEuropean: false
@@ -437,8 +436,9 @@
   isEuropean: false
   country: United States
   alternatives:
-    - Philips
     - Sennheiser
+    - Bang & Olufsen
+    - Bowers & Wilkins
 
 - name: Klipsch
   isEuropean: false
@@ -451,8 +451,9 @@
   isEuropean: false
   country: United States
   alternatives:
-    - Philips
-    - Sennheiser
+    - Bang & Olufsen
+    - Bowers & Wilkins
+    - Devialet
 
 - name: JBL
   isEuropean: false
@@ -494,7 +495,8 @@
   country: United States
   alternatives:
     - Ducati
-    - BMW
+    - BMW Motorrad
+    - Triumph
 
 - name: Ducati
   isEuropean: true
@@ -938,22 +940,6 @@
     - Insta360 Europe
     - Sony Europe
 
-- name: Sonos
-  isEuropean: false
-  country: United States
-  alternatives:
-    - Bang & Olufsen
-    - Bowers & Wilkins
-    - Devialet
-
-- name: Bose
-  isEuropean: false
-  country: United States
-  alternatives:
-    - Sennheiser
-    - Bang & Olufsen
-    - Bowers & Wilkins
-
 - name: Ring
   isEuropean: false
   country: United States
@@ -1218,22 +1204,6 @@
     - Puma
     - Lacoste
 
-- name: Tesla
-  isEuropean: false
-  country: United States
-  alternatives:
-    - BMW
-    - Mercedes-Benz
-    - Volkswagen
-
-- name: Ford
-  isEuropean: false
-  country: United States
-  alternatives:
-    - BMW
-    - Mercedes-Benz
-    - Volkswagen
-
 - name: General Motors
   isEuropean: false
   country: United States
@@ -1241,22 +1211,6 @@
     - BMW
     - Mercedes-Benz
     - Volkswagen
-
-- name: Harley-Davidson
-  isEuropean: false
-  country: United States
-  alternatives:
-    - Ducati
-    - BMW Motorrad
-    - Triumph
-
-- name: Polaris
-  isEuropean: false
-  country: United States
-  alternatives:
-    - BRP
-    - Arctic Cat Europe
-    - Yamaha Europe
 
 - name: McDonald's
   isEuropean: false
@@ -1281,14 +1235,6 @@
     - Quick
     - Pret A Manger
     - Subway Europe
-
-- name: Starbucks
-  isEuropean: false
-  country: United States
-  alternatives:
-    - McCafé
-    - Costa Coffee
-    - Starbucks Europe
 
 - name: Domino's
   isEuropean: false
@@ -1501,14 +1447,6 @@
     - Vico
     - Bret's
     - Bonduelle
-
-- name: Hershey's
-  isEuropean: false
-  country: United States
-  alternatives:
-    - Ferrero Rocher
-    - Lindt
-    - Milka
 
 - name: Reese's
   isEuropean: false

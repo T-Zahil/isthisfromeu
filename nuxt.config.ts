@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     '@nuxt/ui-pro',
     '@nuxt/content',
     '@vite-pwa/nuxt',
-    '@nuxtjs/plausible'
+    '@nuxtjs/plausible',
+    '@nuxt/test-utils/module'
   ],
 
   app: {

@@ -7,22 +7,30 @@
     "dev-sw": "SW=true nuxi dev",
     "build": "nuxi build",
     "build-sw": "SW=true nuxi build",
-    "generate": "SW=true nuxi generate"
+    "generate": "SW=true nuxi generate",
+    "test": "vitest"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.32",
     "@iconify-json/simple-icons": "^1.2.29",
     "@nuxt/content": "^3.4.0",
-    "@nuxtjs/plausible": "^1.0.2",
     "@nuxt/ui-pro": "^3.0.1",
+    "@nuxtjs/plausible": "^1.0.2",
     "@vite-pwa/nuxt": "^0.10.6",
     "nuxt": "^3.16.1"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.2.0",
+    "@nuxt/test-utils": "^3.17.2",
+    "@vue/test-utils": "^2.4.6",
     "eslint": "^9.22.0",
+    "happy-dom": "^17.4.4",
+    "playwright-core": "^1.51.1",
     "typescript": "^5.8.2",
-    "vue-tsc": "^2.2.2"
+    "vitest": "^3.0.9",
+    "vue-tsc": "^2.2.2",
+    "yaml": "^2.3.4",
+    "@types/node": "^20.11.24"
   },
   "resolutions": {
     "vue-tsc": "2.2.2"
