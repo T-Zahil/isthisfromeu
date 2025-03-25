@@ -11,6 +11,33 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible'
   ],
 
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/site.webmanifest' }
+      ],
+      meta: [
+        { name: 'theme-color', content: '#ffffff' },
+        // OpenGraph
+        { property: 'og:site_name', content: 'Is this from EU?' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Is this from EU?' },
+        { property: 'og:description', content: 'Find out if a brand is European or not. A simple application to check product origins.' },
+        { property: 'og:image', content: 'https://isthisfrom.eu/og_image.png' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        // Twitter Card
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Is this from EU?' },
+        { name: 'twitter:description', content: 'Find out if a brand is European or not. A simple application to check product origins.' },
+        { name: 'twitter:image', content: 'https://isthisfrom.eu/og_image.png' }
+      ]
+    }
+  },
+
   content: {},
 
   devtools: {
@@ -23,27 +50,27 @@ export default defineNuxtConfig({
     filename: sw ? 'sw.ts' : undefined,
     registerType: 'autoUpdate',
     manifest: {
-      name: 'Is this from Europe?',
-      short_name: 'Is this from Europe?',
+      name: 'Is this from EU?',
+      short_name: 'Is this from EU?',
       theme_color: '#ffffff',
-      // icons: [
-      //   {
-      //     src: 'pwa-192x192.png',
-      //     sizes: '192x192',
-      //     type: 'image/png',
-      //   },
-      //   {
-      //     src: 'pwa-512x512.png',
-      //     sizes: '512x512',
-      //     type: 'image/png',
-      //   },
-      //   {
-      //     src: 'pwa-512x512.png',
-      //     sizes: '512x512',
-      //     type: 'image/png',
-      //     purpose: 'any maskable',
-      //   },
-      // ],
+      icons: [
+        {
+          src: '/web-app-manifest-192x192.png',
+          sizes: '192x192',
+          type: 'image/png',
+        },
+        {
+          src: '/web-app-manifest-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+        },
+        {
+          src: '/web-app-manifest-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any maskable',
+        },
+      ],
     },
     workbox: {
       globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
