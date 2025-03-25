@@ -616,3 +616,1200 @@
 - name: Perrier
   isEuropean: true
   country: France
+
+- name: Le Petit Marseillais
+  isEuropean: true
+  country: France
+  alternatives:
+    - Nivea
+    - L'Oréal
+    - Bioderma
+    - La Roche-Posay
+    - Vichy
+
+- name: Bioderma
+  isEuropean: true
+  country: France
+
+- name: La Roche-Posay
+  isEuropean: true
+  country: France
+
+- name: Vichy
+  isEuropean: true
+  country: France
+
+- name: Lululemon
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Adidas
+    - Puma
+    - Lacoste
+
+- name: Roots
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - H&M
+    - Zara
+    - Lacoste
+
+- name: Joe Fresh
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - H&M
+    - Zara
+    - C&A
+
+- name: RW&CO
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - H&M
+    - Zara
+    - C&A
+
+- name: Danby
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Bosch
+    - Miele
+    - Smeg
+    - De'Longhi
+
+- name: Salton
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Bosch
+    - Miele
+    - Smeg
+    - De'Longhi
+
+- name: Unique Appliances
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Bosch
+    - Miele
+    - Smeg
+    - De'Longhi
+
+- name: Arc'teryx
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Jack Wolfskin
+    - Fjällräven
+    - The North Face Europe
+
+- name: MEC
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Decathlon
+    - Intersport
+    - Go Sport
+
+- name: Harvey's
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Quick
+    - Burger King Europe
+    - McDonald's Europe
+
+- name: Tim Hortons
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - McCafé
+    - Starbucks Europe
+    - Costa Coffee
+
+- name: Mr. Sub
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Subway Europe
+    - Quick
+    - Pret A Manger
+
+- name: Pizza Pizza
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Domino's Europe
+    - Pizza Hut Europe
+    - Papa John's Europe
+
+- name: Lion Electric
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Volvo Trucks
+    - Scania
+    - MAN
+
+- name: Crave
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Netflix Europe
+    - Disney+ Europe
+    - Amazon Prime Europe
+
+- name: CBC Gem
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Arte
+    - BBC iPlayer
+    - RAI Play
+
+- name: Club illico
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Netflix Europe
+    - Disney+ Europe
+    - Amazon Prime Europe
+
+- name: House of Anansi Press
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Gallimard
+    - Flammarion
+    - Albin Michel
+
+- name: McClelland & Stewart
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Gallimard
+    - Flammarion
+    - Albin Michel
+
+- name: Petro-Canada
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - TotalEnergies
+    - Shell Europe
+    - BP Europe
+
+- name: Co-op Gas
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - TotalEnergies
+    - Shell Europe
+    - BP Europe
+
+- name: Well.ca
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Amazon Europe
+    - Otto
+    - Zalando
+
+- name: SkipTheDishes
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Just Eat
+    - Deliveroo
+    - Uber Eats Europe
+
+- name: Fantuan
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Just Eat
+    - Deliveroo
+    - Uber Eats Europe
+
+- name: TappCar
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Uber Europe
+    - Bolt
+    - Free Now
+
+- name: Uride
+  isEuropean: false
+  country: Canada
+  alternatives:
+    - Uber Europe
+    - Bolt
+    - Free Now
+
+- name: Microsoft
+  isEuropean: false
+  country: United States
+  alternatives:
+    - SAP
+    - Dassault Systèmes
+    - Atos
+
+- name: Dell
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Lenovo Europe
+    - Acer Europe
+    - Asus Europe
+
+- name: HP
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Lenovo Europe
+    - Acer Europe
+    - Asus Europe
+
+- name: Intel
+  isEuropean: false
+  country: United States
+  alternatives:
+    - AMD Europe
+    - ARM
+    - STMicroelectronics
+
+- name: AMD
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Intel Europe
+    - ARM
+    - STMicroelectronics
+
+- name: Nvidia
+  isEuropean: false
+  country: United States
+  alternatives:
+    - AMD Europe
+    - ARM
+    - STMicroelectronics
+
+- name: IBM
+  isEuropean: false
+  country: United States
+  alternatives:
+    - SAP
+    - Atos
+    - Capgemini
+
+- name: Western Digital
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Seagate Europe
+    - Kingston Europe
+    - Samsung Europe
+
+- name: Seagate
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Western Digital Europe
+    - Kingston Europe
+    - Samsung Europe
+
+- name: Qualcomm
+  isEuropean: false
+  country: United States
+  alternatives:
+    - ARM
+    - STMicroelectronics
+    - Infineon
+
+- name: GoPro
+  isEuropean: false
+  country: United States
+  alternatives:
+    - DJI Europe
+    - Insta360 Europe
+    - Sony Europe
+
+- name: Sonos
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Bang & Olufsen
+    - Bowers & Wilkins
+    - Devialet
+
+- name: Bose
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Sennheiser
+    - Bang & Olufsen
+    - Bowers & Wilkins
+
+- name: Ring
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Arlo Europe
+    - Netatmo
+    - Somfy
+
+- name: Netflix
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Arte
+    - BBC iPlayer
+    - RAI Play
+
+- name: Prime Video
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Arte
+    - BBC iPlayer
+    - RAI Play
+
+- name: Disney+
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Arte
+    - BBC iPlayer
+    - RAI Play
+
+- name: HBO
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Arte
+    - BBC iPlayer
+    - RAI Play
+
+- name: Paramount+
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Arte
+    - BBC iPlayer
+    - RAI Play
+
+- name: Apple TV+
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Arte
+    - BBC iPlayer
+    - RAI Play
+
+- name: YouTube
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Dailymotion
+    - Vimeo Europe
+    - Arte
+
+- name: NHL
+  isEuropean: false
+  country: United States
+  alternatives:
+    - UEFA Champions League
+    - Premier League
+    - Ligue 1
+
+- name: NBA
+  isEuropean: false
+  country: United States
+  alternatives:
+    - EuroLeague
+    - LNB Pro A
+    - Liga ACB
+
+- name: NFL
+  isEuropean: false
+  country: United States
+  alternatives:
+    - UEFA Champions League
+    - Premier League
+    - Ligue 1
+
+- name: MLB
+  isEuropean: false
+  country: United States
+  alternatives:
+    - UEFA Champions League
+    - Premier League
+    - Ligue 1
+
+- name: ESPN
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Eurosport
+    - beIN Sports
+    - Canal+ Sport
+
+- name: CNN
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Euronews
+    - France 24
+    - BBC News
+
+- name: Fox News
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Euronews
+    - France 24
+    - BBC News
+
+- name: The New York Times
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Le Monde
+    - The Guardian
+    - Der Spiegel
+
+- name: The Wall Street Journal
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Financial Times
+    - Les Échos
+    - Handelsblatt
+
+- name: Bloomberg
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Financial Times
+    - Les Échos
+    - Handelsblatt
+
+- name: Facebook
+  isEuropean: false
+  country: United States
+  alternatives:
+    - LinkedIn Europe
+    - Xing
+    - Viadeo
+
+- name: Instagram
+  isEuropean: false
+  country: United States
+  alternatives:
+    - LinkedIn Europe
+    - Xing
+    - Viadeo
+
+- name: WhatsApp
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Telegram
+    - Signal
+    - Viber
+
+- name: X
+  isEuropean: false
+  country: United States
+  alternatives:
+    - LinkedIn Europe
+    - Xing
+    - Viadeo
+
+- name: Reddit
+  isEuropean: false
+  country: United States
+  alternatives:
+    - LinkedIn Europe
+    - Xing
+    - Viadeo
+
+- name: Amazon
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Otto
+    - Zalando
+    - Cdiscount
+
+- name: Walmart
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Carrefour
+    - E.Leclerc
+    - Lidl
+
+- name: Costco
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Metro
+    - Carrefour
+    - E.Leclerc
+
+- name: Best Buy
+  isEuropean: false
+  country: United States
+  alternatives:
+    - MediaMarkt
+    - Fnac
+    - Darty
+
+- name: Home Depot
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Leroy Merlin
+    - Brico Dépôt
+    - Hornbach
+
+- name: Lowe's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Leroy Merlin
+    - Brico Dépôt
+    - Hornbach
+
+- name: Wayfair
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Maisons du Monde
+    - Conforama
+    - But
+
+- name: Etsy
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vinted
+    - Vestiaire Collective
+    - Leboncoin
+
+- name: eBay
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vinted
+    - Vestiaire Collective
+    - Leboncoin
+
+- name: Under Armour
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Adidas
+    - Puma
+    - Lacoste
+
+- name: Tesla
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BMW
+    - Mercedes-Benz
+    - Volkswagen
+
+- name: Ford
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BMW
+    - Mercedes-Benz
+    - Volkswagen
+
+- name: General Motors
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BMW
+    - Mercedes-Benz
+    - Volkswagen
+
+- name: Harley-Davidson
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ducati
+    - BMW Motorrad
+    - Triumph
+
+- name: Polaris
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BRP
+    - Arctic Cat Europe
+    - Yamaha Europe
+
+- name: McDonald's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Quick
+    - Burger King Europe
+    - McDonald's Europe
+
+- name: Burger King
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Quick
+    - McDonald's Europe
+    - Burger King Europe
+
+- name: Subway
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Quick
+    - Pret A Manger
+    - Subway Europe
+
+- name: Starbucks
+  isEuropean: false
+  country: United States
+  alternatives:
+    - McCafé
+    - Costa Coffee
+    - Starbucks Europe
+
+- name: Domino's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Pizza Hut Europe
+    - Papa John's Europe
+    - Domino's Europe
+
+- name: Pizza Hut
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Domino's Europe
+    - Papa John's Europe
+    - Pizza Hut Europe
+
+- name: KFC
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Quick
+    - Burger King Europe
+    - McDonald's Europe
+
+- name: Taco Bell
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Quick
+    - Burger King Europe
+    - McDonald's Europe
+
+- name: Wendy's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Quick
+    - Burger King Europe
+    - McDonald's Europe
+
+- name: Popeyes
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Quick
+    - Burger King Europe
+    - McDonald's Europe
+
+- name: Dunkin'
+  isEuropean: false
+  country: United States
+  alternatives:
+    - McCafé
+    - Costa Coffee
+    - Starbucks Europe
+
+- name: Keurig
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Nespresso
+    - Tassimo
+    - Senseo
+
+- name: Folgers
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Lavazza
+    - Illy
+    - Segafredo
+
+- name: Maxwell House
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Lavazza
+    - Illy
+    - Segafredo
+
+- name: Nestlé USA
+  isEuropean: true
+  country: Switzerland
+
+- name: Whole Foods
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Carrefour Bio
+    - Naturalia
+    - Biocoop
+
+- name: Trader Joe's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Carrefour Bio
+    - Naturalia
+    - Biocoop
+
+- name: 7-Eleven
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Carrefour Express
+    - Monoprix
+    - Franprix
+
+- name: Circle K
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Carrefour Express
+    - Monoprix
+    - Franprix
+
+- name: Safeway
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Carrefour
+    - E.Leclerc
+    - Lidl
+
+- name: Lay's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Doritos
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Cheetos
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Ruffles
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Fritos
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Pringles
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Miss Vickie's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: SunChips
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Tostitos
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Bugles
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Hickory Sticks
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Vico
+    - Bret's
+    - Bonduelle
+
+- name: Hershey's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: Reese's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: M&M's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: Snickers
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: Twix
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: Skittles
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Haribo
+    - Trolli
+    - Katjes
+
+- name: KitKat
+  isEuropean: true
+  country: Switzerland
+
+- name: Cadbury
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: Twizzlers
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Haribo
+    - Trolli
+    - Katjes
+
+- name: Visa
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Mastercard Europe
+    - American Express Europe
+    - Cartes Bancaires
+
+- name: Mastercard
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Visa Europe
+    - American Express Europe
+    - Cartes Bancaires
+
+- name: American Express
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Visa Europe
+    - Mastercard Europe
+    - Cartes Bancaires
+
+- name: PayPal
+  isEuropean: false
+  country: United States
+  alternatives:
+    - iDEAL
+    - Sofort
+    - Giropay
+
+- name: Square
+  isEuropean: false
+  country: United States
+  alternatives:
+    - iDEAL
+    - Sofort
+    - Giropay
+
+- name: JP Morgan Chase
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BNP Paribas
+    - Société Générale
+    - Crédit Agricole
+
+- name: Goldman Sachs
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BNP Paribas
+    - Société Générale
+    - Crédit Agricole
+
+- name: Pfizer
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Sanofi
+    - Novartis
+    - Roche
+
+- name: Moderna
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Sanofi
+    - Novartis
+    - Roche
+
+- name: Johnson & Johnson
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Sanofi
+    - Novartis
+    - Roche
+
+- name: Abbott
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Sanofi
+    - Novartis
+    - Roche
+
+- name: ExxonMobil
+  isEuropean: false
+  country: United States
+  alternatives:
+    - TotalEnergies
+    - Shell Europe
+    - BP Europe
+
+- name: Chevron
+  isEuropean: false
+  country: United States
+  alternatives:
+    - TotalEnergies
+    - Shell Europe
+    - BP Europe
+
+- name: GE
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Siemens
+    - Schneider Electric
+    - ABB
+
+- name: Caterpillar
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Volvo CE
+    - Liebherr
+    - Komatsu Europe
+
+- name: John Deere
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Claas
+    - Fendt
+    - New Holland
+
+- name: Airbnb
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Booking.com
+    - Hotels.com Europe
+    - Expedia Europe
+
+- name: Marriott
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Accor
+    - NH Hotels
+    - Meliá Hotels
+
+- name: Hilton
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Accor
+    - NH Hotels
+    - Meliá Hotels
+
+- name: Hyatt
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Accor
+    - NH Hotels
+    - Meliá Hotels
+
+- name: Delta Airlines
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Air France
+    - Lufthansa
+    - British Airways
+
+- name: American Airlines
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Air France
+    - Lufthansa
+    - British Airways
+
+- name: United Airlines
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Air France
+    - Lufthansa
+    - British Airways
+
+- name: Carnival Cruise Line
+  isEuropean: false
+  country: United States
+  alternatives:
+    - MSC Cruises
+    - Costa Cruises
+    - AIDA Cruises
+
+- name: Royal Caribbean
+  isEuropean: false
+  country: United States
+  alternatives:
+    - MSC Cruises
+    - Costa Cruises
+    - AIDA Cruises
+
+- name: FedEx
+  isEuropean: false
+  country: United States
+  alternatives:
+    - DHL
+    - GLS
+    - DPD
+
+- name: UPS
+  isEuropean: false
+  country: United States
+  alternatives:
+    - DHL
+    - GLS
+    - DPD
+
+- name: DHL
+  isEuropean: true
+  country: Germany
+
+- name: Western Union
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Wise
+    - Revolut
+    - N26
+
+- name: Uber
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Bolt
+    - Free Now
+    - Uber Europe
+
+- name: Lyft
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Bolt
+    - Free Now
+    - Uber Europe
