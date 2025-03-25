@@ -243,3 +243,376 @@
 - name: Spotify
   isEuropean: true
   country: Sweden
+
+- name: Ford
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BMW
+    - Mercedes-Benz
+    - Volkswagen
+    - Peugeot
+    - Audi
+
+- name: Chevrolet
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BMW
+    - Mercedes-Benz
+    - Volkswagen
+    - Peugeot
+    - Audi
+
+- name: Cadillac
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BMW
+    - Mercedes-Benz
+    - Audi
+
+- name: Lincoln
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BMW
+    - Mercedes-Benz
+    - Audi
+
+- name: Mercedes-Benz
+  isEuropean: true
+  country: Germany
+
+- name: Peugeot
+  isEuropean: true
+  country: Netherlands
+
+- name: Ralph Lauren
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Louis Vuitton
+    - Gucci
+    - Prada
+    - Hermès
+
+- name: Coach
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Louis Vuitton
+    - Gucci
+    - Prada
+    - Hermès
+
+- name: Michael Kors
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Louis Vuitton
+    - Gucci
+    - Prada
+    - Hermès
+
+- name: Louis Vuitton
+  isEuropean: true
+  country: France
+
+- name: Prada
+  isEuropean: true
+  country: Italy
+
+- name: Hermès
+  isEuropean: true
+  country: France
+
+- name: New Balance
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Adidas
+    - Puma
+    - Lacoste
+
+- name: Carhartt
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Adidas
+    - Puma
+    - Lacoste
+
+- name: Patagonia
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Adidas
+    - Puma
+    - Lacoste
+
+- name: Lacoste
+  isEuropean: true
+  country: France
+
+- name: Shinola
+  isEuropean: false
+  country: United States
+  alternatives:
+    - TAG Heuer
+    - Cartier
+    - Rolex
+
+- name: Bulova
+  isEuropean: false
+  country: United States
+  alternatives:
+    - TAG Heuer
+    - Cartier
+    - Rolex
+
+- name: TAG Heuer
+  isEuropean: true
+  country: France
+
+- name: Cartier
+  isEuropean: true
+  country: France
+
+- name: Red Wing
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Birkenstock
+    - Salvatore Ferragamo
+    - Tod's
+
+- name: Birkenstock
+  isEuropean: true
+  country: Germany
+
+- name: Salvatore Ferragamo
+  isEuropean: true
+  country: Italy
+
+- name: Tod's
+  isEuropean: true
+  country: Italy
+
+- name: KitchenAid
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Bosch
+    - Miele
+    - Smeg
+    - De'Longhi
+
+- name: Whirlpool
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Bosch
+    - Miele
+    - Smeg
+    - De'Longhi
+
+- name: Bosch
+  isEuropean: true
+  country: Germany
+
+- name: Miele
+  isEuropean: true
+  country: Germany
+
+- name: Smeg
+  isEuropean: true
+  country: Italy
+
+- name: De'Longhi
+  isEuropean: true
+  country: Italy
+
+- name: Bose
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Philips
+    - Sennheiser
+
+- name: Klipsch
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Philips
+    - Sennheiser
+
+- name: Sonos
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Philips
+    - Sennheiser
+
+- name: JBL
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Philips
+    - Sennheiser
+
+- name: Trek
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Bianchi
+    - Pinarello
+    - Canyon
+
+- name: Specialized
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Bianchi
+    - Pinarello
+    - Canyon
+
+- name: Bianchi
+  isEuropean: true
+  country: Sweden
+
+- name: Pinarello
+  isEuropean: true
+  country: France
+
+- name: Canyon
+  isEuropean: true
+  country: Belgium
+
+- name: Harley-Davidson
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ducati
+    - BMW
+
+- name: Ducati
+  isEuropean: true
+  country: Germany
+
+- name: Estée Lauder
+  isEuropean: false
+  country: United States
+  alternatives:
+    - L'Oréal
+    - Nivea
+    - Lancôme
+
+- name: Revlon
+  isEuropean: false
+  country: United States
+  alternatives:
+    - L'Oréal
+    - Nivea
+    - Lancôme
+
+- name: Nivea
+  isEuropean: true
+  country: Germany
+
+- name: Lancôme
+  isEuropean: true
+  country: France
+
+- name: Ghirardelli
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: Hershey's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Ferrero Rocher
+    - Lindt
+    - Milka
+
+- name: Ferrero Rocher
+  isEuropean: true
+  country: Italy
+
+- name: Peet's Coffee
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Illy
+    - Lavazza
+
+- name: Illy
+  isEuropean: true
+  country: Italy
+
+- name: Lavazza
+  isEuropean: true
+  country: Italy
+
+- name: Kellogg's
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Seitenbacher
+
+- name: Seitenbacher
+  isEuropean: true
+  country: Germany
+
+- name: Heinz
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Maille
+    - Amora
+
+- name: Maille
+  isEuropean: true
+  country: Netherlands
+
+- name: Amora
+  isEuropean: true
+  country: Netherlands
+
+- name: Budweiser
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Heineken
+    - Stella Artois
+
+- name: Stella Artois
+  isEuropean: true
+  country: Belgium
+
+- name: Pepsi
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Orangina
+    - Perrier
+
+- name: Dr Pepper
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Orangina
+    - Perrier
+
+- name: Orangina
+  isEuropean: true
+  country: France
+
+- name: Perrier
+  isEuropean: true
+  country: France
