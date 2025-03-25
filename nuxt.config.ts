@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/ui-pro',
     '@nuxt/content',
-    '@vite-pwa/nuxt'
+    '@vite-pwa/nuxt',
+    '@nuxtjs/plausible'
   ],
 
   content: {},
@@ -63,6 +64,11 @@ export default defineNuxtConfig({
       navigateFallbackAllowlist: [/^\/$/],
       type: 'module',
     },
+  },
+
+  plausible: {
+    domain: 'isthisfrom.eu',
+    apiHost: 'https://logz.uneed.best',
   },
 
   css: ['~/assets/css/main.css'],
