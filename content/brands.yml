@@ -1640,3 +1640,9 @@
   alternatives:
     - Bolt
     - Free Now
+
+- name: Product Hunt
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Uneed
