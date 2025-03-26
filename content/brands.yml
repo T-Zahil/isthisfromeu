@@ -1714,3 +1714,13 @@
 - name: Teufel
   isEuropean: true
   country: Germany
+
+- name: Codeberg
+  isEuropean: true
+  country: Germany
+  
+- name: GitHub
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Codeberg
