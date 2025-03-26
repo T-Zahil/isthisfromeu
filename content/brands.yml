@@ -220,8 +220,8 @@
   country: United Kingdom
 
 - name: Volvo
-  isEuropean: true
-  country: Sweden
+  isEuropean: false
+  country: China
 
 - name: Yamaha
   isEuropean: false
@@ -747,7 +747,6 @@
   isEuropean: false
   country: Canada
   alternatives:
-    - Volvo Trucks
     - Scania
     - MAN
 
@@ -1521,7 +1520,6 @@
   isEuropean: false
   country: United States
   alternatives:
-    - Volvo CE
     - Liebherr
 
 - name: John Deere
