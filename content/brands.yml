@@ -1688,8 +1688,8 @@
     - Fernand
 
 - name: Fernand
-  isEuropean: false
-  country: Grmany
+  isEuropean: true
+  country: France
   alternatives:
     - Crisp
 
