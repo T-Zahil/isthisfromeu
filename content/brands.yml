@@ -1,3 +1,9 @@
+- name: Monster
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Hell
+    - RedBull
 - name: Apple
   isEuropean: false
   country: United States
