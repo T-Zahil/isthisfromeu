@@ -115,13 +115,13 @@
 
 - name: Gilette
   isEuropean: false
-  country: USA
+  country: United States
   alternatives:
     - Philips
 
 - name: Duracell
   isEuropean: false
-  country: USA
+  country: United States
   alternatives:
     - Philips
 
@@ -1655,12 +1655,12 @@
 
 - name: Crisp
   isEuropean: true
-  country: France    
-  
+  country: France
+
 - name: Code-Garage
   isEuropean: true
-  country: France    
-  
+  country: France
+
 - name: Udemy
   isEuropean: false
   country: United States
@@ -1672,7 +1672,7 @@
   country: United States
   alternatives:
     - Clever-Cloud
-  
+
 - name: Intercom
   isEuropean: false
   country: United States
