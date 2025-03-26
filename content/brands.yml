@@ -37,6 +37,10 @@
   isEuropean: true
   country: Spain
 
+- name: Bount.ing
+  isEuropean: true
+  country: Spain
+
 - name: Lidl
   isEuropean: true
   country: Germany
