@@ -351,6 +351,7 @@
     - Adidas
     - Puma
     - Lacoste
+    - Omsight
 
 - name: Lacoste
   isEuropean: true
@@ -1676,3 +1677,21 @@
   country: United States
   alternatives:
     - Crisp
+
+- name: Payhawk
+  isEuropean: true
+  country: United Kingdom
+
+- name: Y Combinator
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Icanpreneur
+
+- name: Icanpreneur
+  isEuropean: true
+  country: Bulgaria
+
+- name: Omsight
+  isEuropean: true
+  country: Bulgaria
