@@ -1232,10 +1232,6 @@
     - Illy
     - Segafredo
 
-- name: Nestlé USA
-  isEuropean: true
-  country: Switzerland
-
 - name: Whole Foods
   isEuropean: false
   country: United States
