@@ -19,11 +19,6 @@ const items = computed(() => [{
 
     <template #body>
       <UNavigationMenu :items="items" orientation="vertical" class="-mx-2.5" />
-
-      <USeparator class="my-6" />
-
-      <UButton label="Sign in" color="neutral" variant="subtle" to="/login" block class="mb-3" />
-      <UButton label="Sign up" color="neutral" to="/signup" block />
     </template>
   </UHeader>
 </template>
