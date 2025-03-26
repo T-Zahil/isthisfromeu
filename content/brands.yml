@@ -28,6 +28,7 @@
   country: Australia
   alternatives:
     - Sennheiser
+    - Teufel
 
 - name: Sennheiser
   isEuropean: true
@@ -444,6 +445,7 @@
     - Sennheiser
     - Bang & Olufsen
     - Bowers & Wilkins
+    - Teufel
 
 - name: Klipsch
   isEuropean: false
@@ -451,6 +453,7 @@
   alternatives:
     - Philips
     - Sennheiser
+    - Teufel
 
 - name: Sonos
   isEuropean: false
@@ -1708,3 +1711,7 @@
 - name: Omsight
   isEuropean: true
   country: Bulgaria
+
+- name: Teufel
+  isEuropean: true
+  country: Germany
