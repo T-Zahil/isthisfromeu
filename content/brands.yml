@@ -1752,3 +1752,25 @@
   country: United States
   alternatives:
     - BeReal
+
+- name: Tuta
+  isEuropean: true
+  country: Germany
+
+- name: Gmail
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Tuta
+    - Proton
+    
+- name: Google Calendar
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Tuta
+    - Proton
+
+- name: Proton
+  isEuropean: true
+  country: Switzerland
