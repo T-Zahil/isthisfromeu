@@ -1646,3 +1646,33 @@
   country: United States
   alternatives:
     - Uneed
+
+- name: Clever-Cloud
+  isEuropean: true
+  country: France
+
+- name: Crisp
+  isEuropean: true
+  country: France    
+  
+- name: Code-Garage
+  isEuropean: true
+  country: France    
+  
+- name: Udemy
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Code-Garage
+
+- name: Heroku
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Clever-Cloud
+  
+- name: Intercom
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Crisp
