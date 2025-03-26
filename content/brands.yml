@@ -37,6 +37,10 @@
   isEuropean: true
   country: Spain
 
+- name: Bount.ing
+  isEuropean: true
+  country: Spain
+
 - name: Lidl
   isEuropean: true
   country: Germany
@@ -1647,6 +1651,10 @@
     - Uneed
 
 - name: Clever-Cloud
+  isEuropean: true
+  country: France
+
+- name: Dolibarr
   isEuropean: true
   country: France
 
