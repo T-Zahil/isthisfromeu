@@ -197,9 +197,7 @@
   isEuropean: false
   country: United States
   alternatives:
-    - McCafé
     - Costa Coffee
-    - Starbucks Europe
 
 - name: Tesla
   isEuropean: false
@@ -706,7 +704,6 @@
   alternatives:
     - Jack Wolfskin
     - Fjällräven
-    - The North Face Europe
 
 - name: MEC
   isEuropean: false
@@ -721,32 +718,23 @@
   country: Canada
   alternatives:
     - Quick
-    - Burger King Europe
-    - McDonald's Europe
 
 - name: Tim Hortons
   isEuropean: false
   country: Canada
   alternatives:
-    - McCafé
-    - Starbucks Europe
     - Costa Coffee
 
 - name: Mr. Sub
   isEuropean: false
   country: Canada
   alternatives:
-    - Subway Europe
     - Quick
     - Pret A Manger
 
 - name: Pizza Pizza
   isEuropean: false
   country: Canada
-  alternatives:
-    - Domino's Europe
-    - Pizza Hut Europe
-    - Papa John's Europe
 
 - name: Lion Electric
   isEuropean: false
@@ -759,10 +747,6 @@
 - name: Crave
   isEuropean: false
   country: Canada
-  alternatives:
-    - Netflix Europe
-    - Disney+ Europe
-    - Amazon Prime Europe
 
 - name: CBC Gem
   isEuropean: false
@@ -775,10 +759,6 @@
 - name: Club illico
   isEuropean: false
   country: Canada
-  alternatives:
-    - Netflix Europe
-    - Disney+ Europe
-    - Amazon Prime Europe
 
 - name: House of Anansi Press
   isEuropean: false
@@ -801,22 +781,17 @@
   country: Canada
   alternatives:
     - TotalEnergies
-    - Shell Europe
-    - BP Europe
 
 - name: Co-op Gas
   isEuropean: false
   country: Canada
   alternatives:
     - TotalEnergies
-    - Shell Europe
-    - BP Europe
 
 - name: Well.ca
   isEuropean: false
   country: Canada
   alternatives:
-    - Amazon Europe
     - Otto
     - Zalando
 
@@ -859,42 +834,22 @@
 - name: Dell
   isEuropean: false
   country: United States
-  alternatives:
-    - Lenovo Europe
-    - Acer Europe
-    - Asus Europe
 
 - name: HP
   isEuropean: false
   country: United States
-  alternatives:
-    - Lenovo Europe
-    - Acer Europe
-    - Asus Europe
 
 - name: Intel
   isEuropean: false
   country: United States
-  alternatives:
-    - AMD Europe
-    - ARM
-    - STMicroelectronics
 
 - name: AMD
   isEuropean: false
   country: United States
-  alternatives:
-    - Intel Europe
-    - ARM
-    - STMicroelectronics
 
 - name: Nvidia
   isEuropean: false
   country: United States
-  alternatives:
-    - AMD Europe
-    - ARM
-    - STMicroelectronics
 
 - name: IBM
   isEuropean: false
@@ -907,18 +862,10 @@
 - name: Western Digital
   isEuropean: false
   country: United States
-  alternatives:
-    - Seagate Europe
-    - Kingston Europe
-    - Samsung Europe
 
 - name: Seagate
   isEuropean: false
   country: United States
-  alternatives:
-    - Western Digital Europe
-    - Kingston Europe
-    - Samsung Europe
 
 - name: Qualcomm
   isEuropean: false
@@ -931,16 +878,11 @@
 - name: GoPro
   isEuropean: false
   country: United States
-  alternatives:
-    - DJI Europe
-    - Insta360 Europe
-    - Sony Europe
 
 - name: Ring
   isEuropean: false
   country: United States
   alternatives:
-    - Arlo Europe
     - Netatmo
     - Somfy
 
@@ -997,7 +939,6 @@
   country: United States
   alternatives:
     - Dailymotion
-    - Vimeo Europe
     - Arte
 
 - name: NHL
@@ -1084,7 +1025,6 @@
   isEuropean: false
   country: United States
   alternatives:
-    - LinkedIn Europe
     - Xing
     - Viadeo
 
@@ -1092,7 +1032,6 @@
   isEuropean: false
   country: United States
   alternatives:
-    - LinkedIn Europe
     - Xing
     - Viadeo
 
@@ -1108,7 +1047,6 @@
   isEuropean: false
   country: United States
   alternatives:
-    - LinkedIn Europe
     - Xing
     - Viadeo
 
@@ -1116,7 +1054,6 @@
   isEuropean: false
   country: United States
   alternatives:
-    - LinkedIn Europe
     - Xing
     - Viadeo
 
@@ -1213,16 +1150,12 @@
   country: United States
   alternatives:
     - Quick
-    - Burger King Europe
-    - McDonald's Europe
 
 - name: Burger King
   isEuropean: false
   country: United States
   alternatives:
     - Quick
-    - McDonald's Europe
-    - Burger King Europe
 
 - name: Subway
   isEuropean: false
@@ -1230,63 +1163,44 @@
   alternatives:
     - Quick
     - Pret A Manger
-    - Subway Europe
 
 - name: Domino's
   isEuropean: false
   country: United States
-  alternatives:
-    - Pizza Hut Europe
-    - Papa John's Europe
-    - Domino's Europe
 
 - name: Pizza Hut
   isEuropean: false
   country: United States
-  alternatives:
-    - Domino's Europe
-    - Papa John's Europe
-    - Pizza Hut Europe
 
 - name: KFC
   isEuropean: false
   country: United States
   alternatives:
     - Quick
-    - Burger King Europe
-    - McDonald's Europe
 
 - name: Taco Bell
   isEuropean: false
   country: United States
   alternatives:
     - Quick
-    - Burger King Europe
-    - McDonald's Europe
 
 - name: Wendy's
   isEuropean: false
   country: United States
   alternatives:
     - Quick
-    - Burger King Europe
-    - McDonald's Europe
 
 - name: Popeyes
   isEuropean: false
   country: United States
   alternatives:
     - Quick
-    - Burger King Europe
-    - McDonald's Europe
 
 - name: Dunkin'
   isEuropean: false
   country: United States
   alternatives:
-    - McCafé
     - Costa Coffee
-    - Starbucks Europe
 
 - name: Keurig
   isEuropean: false
@@ -1507,26 +1421,14 @@
 - name: Visa
   isEuropean: false
   country: United States
-  alternatives:
-    - Mastercard Europe
-    - American Express Europe
-    - Cartes Bancaires
 
 - name: Mastercard
   isEuropean: false
   country: United States
-  alternatives:
-    - Visa Europe
-    - American Express Europe
-    - Cartes Bancaires
 
 - name: American Express
   isEuropean: false
   country: United States
-  alternatives:
-    - Visa Europe
-    - Mastercard Europe
-    - Cartes Bancaires
 
 - name: PayPal
   isEuropean: false
@@ -1597,16 +1499,12 @@
   country: United States
   alternatives:
     - TotalEnergies
-    - Shell Europe
-    - BP Europe
 
 - name: Chevron
   isEuropean: false
   country: United States
   alternatives:
     - TotalEnergies
-    - Shell Europe
-    - BP Europe
 
 - name: GE
   isEuropean: false
@@ -1622,7 +1520,6 @@
   alternatives:
     - Volvo CE
     - Liebherr
-    - Komatsu Europe
 
 - name: John Deere
   isEuropean: false
@@ -1637,8 +1534,6 @@
   country: United States
   alternatives:
     - Booking.com
-    - Hotels.com Europe
-    - Expedia Europe
 
 - name: Marriott
   isEuropean: false
