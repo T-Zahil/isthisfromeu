@@ -38,6 +38,8 @@ onMounted(() => {
       </button>
     </div>
     <NuxtPwaManifest />
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </UApp>
 </template>

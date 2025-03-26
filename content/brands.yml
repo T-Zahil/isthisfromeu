@@ -618,8 +618,8 @@
   country: France
 
 - name: Le Petit Marseillais
-  isEuropean: true
-  country: France
+  isEuropean: false
+  country: United States
   alternatives:
     - Nivea
     - L'Oréal
