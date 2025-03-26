@@ -1655,6 +1655,8 @@
 - name: Crisp
   isEuropean: true
   country: France
+  alternatives:
+    - Fernand
 
 - name: Code-Garage
   isEuropean: true
@@ -1675,6 +1677,13 @@
 - name: Intercom
   isEuropean: false
   country: United States
+  alternatives:
+    - Crisp
+    - Fernand
+
+- name: Fernand
+  isEuropean: false
+  country: Grmany
   alternatives:
     - Crisp
 
