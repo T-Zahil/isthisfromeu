@@ -180,8 +180,6 @@
 - name: Nintendo
   isEuropean: false
   country: Japan
-  alternatives:
-    - Nokia
 
 - name: Nokia
   isEuropean: true
