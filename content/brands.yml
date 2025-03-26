@@ -222,8 +222,6 @@
 - name: Yamaha
   isEuropean: false
   country: Japan
-  alternatives:
-    - Philips
 
 - name: Canon
   isEuropean: false
