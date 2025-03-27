@@ -1,3 +1,9 @@
+- name: PrestaShop
+  isEuropean: true
+  country: France
+  alternatives:
+    - Shopify
+
 - name: Monster
   isEuropean: false
   country: United States
