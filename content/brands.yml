@@ -1714,3 +1714,63 @@
 - name: Teufel
   isEuropean: true
   country: Germany
+
+- name: Codeberg
+  isEuropean: true
+  country: Germany
+  
+- name: GitHub
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Codeberg
+
+- name: Qwant
+  isEuropean: true
+  country: France
+
+- name: Ecosia
+  isEuropean: true
+  country: Germany
+
+- name: Le Chat (Mistral AI)
+  isEuropean: true
+  country: France
+
+- name: ChatGPT
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Le Chat (Mistral AI)
+
+- name: BeReal
+  isEuropean: true
+  country: France
+
+- name: Snapchat
+  isEuropean: false
+  country: United States
+  alternatives:
+    - BeReal
+
+- name: Tuta
+  isEuropean: true
+  country: Germany
+
+- name: Gmail
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Tuta
+    - Proton
+    
+- name: Google Calendar
+  isEuropean: false
+  country: United States
+  alternatives:
+    - Tuta
+    - Proton
+
+- name: Proton
+  isEuropean: true
+  country: Switzerland
