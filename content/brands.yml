@@ -1780,3 +1780,8 @@
 - name: Proton
   isEuropean: true
   country: Switzerland
+
+  name: Brand name test
+  country: France
+  isEuropean: false
+  alternatives: alternative1,alternative2
